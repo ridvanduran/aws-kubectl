@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aws-configmap
+data:
+  AWS_REGION: "XXX"
+  DOCKER_SECRET_NAME: "aws-ecr-secret"
