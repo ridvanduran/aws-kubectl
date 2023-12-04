@@ -26,4 +26,4 @@ RUN pip install --upgrade pip && \
 WORKDIR /scripts
 COPY scripts/ /scripts
 
-ENTRYPOINT ["bash", "entrypoint.sh"]
+ENTRYPOINT ["bash", "/scripts/entrypoint.sh"]
